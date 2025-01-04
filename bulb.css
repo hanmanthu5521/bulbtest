@@ -1,0 +1,18 @@
+body{
+    border: 2px solid black;
+    width: 50%;
+}
+button{
+    height: 25px;
+    width: 50px;
+    border-radius: 3px;
+    
+}
+#offbtn{
+    background-color: red;
+    color: white;
+}
+#onbtn{
+    background-color: green;
+    color: white;
+}

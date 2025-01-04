@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Test</title>
+    <link rel="stylesheet" href="bulb.css">
+</head>
+<body>
+    <center>
+        <h2>Bulb Test</h2>
+   <button id="offbtn" onclick="bulboff()">off</button>
+   <img src="off.jpg" alt="off image" id="image">
+   <button id="onbtn" onclick="bulbon()">on</button>
+   </center>
+   <script>
+    function bulboff(){
+        let img = document.getElementById('image')
+        img.src = 'off.jpg'
+    }
+    function bulbon(){
+        let img = document.getElementById('image')
+        img.src = 'on.jpg'
+    }
+   </script>
+</body>
+</html>
